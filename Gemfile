@@ -72,7 +72,4 @@ group :test do
 end
 
 gem "cssbundling-rails", "~> 1.3"
-
-group :development, :production do
-  gem 'sassc'
-end
+gem "jsbundling-rails", "~> 1.2"

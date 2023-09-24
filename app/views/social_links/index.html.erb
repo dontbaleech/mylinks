@@ -1,15 +1,15 @@
 
-
-  <div class="box">
-    <h2></h2>
-    <ul>
-      <% social_links = YAML.load_file(Rails.root.join('config', 'social_links.yml')) %>
-      <% social_links.each do |platform, link| %>
-        <li>
-          <a href="<%= link %>" target="_blank"><%= platform.capitalize %></a>
-        </li>
-      <% end %>
-    </ul>
-   
-  </div L div | 25% M div | 50% R div | 25%  
+<div class="box">
+  <h2></h2>
+  <ul>
+    <% social_links = YAML.load_file(Rails.root.join('config', 'social_links.yml')) %>
+    <% social_links.each do |platform, link| %>
+      <li>
+        <a href="<%= link %>" target="_blank"><%= platform.capitalize %></a>
+      </li>
+    <% end %>
+    
+  </ul>
+  
+</div>
 
